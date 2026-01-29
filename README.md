@@ -68,16 +68,16 @@ screenshots/
 ## 🖼️ Screenshots
 
 ### Home Page
-![Home Page](./screenshots/home.png)
+![Home Page](public/screenshots/home.png)
 
 ### Signup Page
-![Signup Page](./screenshots/signup.png)
+![Signup Page](public/screenshots/signup.png)
 
 ### Login Page
-![Login Page](./screenshots/login.png)
+![Login Page](public/screenshots/login.png)
 
 ### Profile Page
-![Profile Page](./screenshots/profile.png)
+![Profile Page](public/screenshots/profile.png)
 
 ---
 
