@@ -72,7 +72,7 @@ export default function SignupPage() {
               <div className="space-y-1">
                 <label className="text-[10px] font-bold text-slate-500 uppercase tracking-widest ml-4">First Name</label>
                 <input
-                  type="text" placeholder="John"
+                  type="text" placeholder="First Name"
                   className="w-full px-6 py-4 bg-slate-50 border border-slate-100 rounded-full text-slate-900 font-semibold placeholder-slate-300 focus:outline-none focus:ring-4 focus:ring-blue-50 focus:bg-white transition-all"
                   value={firstName}
                   onChange={(e) => setfirstName(e.target.value)}
@@ -81,7 +81,7 @@ export default function SignupPage() {
               <div className="space-y-1">
                 <label className="text-[10px] font-bold text-slate-500 uppercase tracking-widest ml-4">Last Name</label>
                 <input
-                  type="text" placeholder="Doe"
+                  type="text" placeholder="Last Name"
                   className="w-full px-6 py-4 bg-slate-50 border border-slate-100 rounded-full text-slate-900 font-semibold placeholder-slate-300 focus:outline-none focus:ring-4 focus:ring-blue-50 focus:bg-white transition-all"
                   value={lastName}
                   onChange={(e) => setlastName(e.target.value)}
@@ -94,7 +94,7 @@ export default function SignupPage() {
               <div className="space-y-1">
                 <label className="text-[10px] font-bold text-slate-500 uppercase tracking-widest ml-4">Age</label>
                 <input
-                  type="number" placeholder="25"
+                  type="number" placeholder="Age"
                   className="w-full px-6 py-4 bg-slate-50 border border-slate-100 rounded-full text-slate-900 font-semibold placeholder-slate-300 focus:outline-none focus:ring-4 focus:ring-blue-50 focus:bg-white transition-all"
                   value={age}
                   onChange={(e) => setAge(e.target.value)}
@@ -115,7 +115,7 @@ export default function SignupPage() {
             <div className="space-y-1">
               <label className="text-[10px] font-bold text-slate-500 uppercase tracking-widest ml-4">Email Address</label>
               <input
-                type="email" placeholder="name@example.com"
+                type="email" placeholder="gmail@.com"
                 className="w-full px-6 py-4 bg-slate-50 border border-slate-100 rounded-full text-slate-900 font-semibold placeholder-slate-300 focus:outline-none focus:ring-4 focus:ring-blue-50 focus:bg-white transition-all"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
