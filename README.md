@@ -60,8 +60,8 @@ screenshots/
 5. User profile data and image persist across page refresh
 6. Logout clears `localStorage` and redirects to login
 
-> ⚠️ This is a **mock authentication system**.  
-> In real-world applications, authentication is handled securely on the backend.
+ ⚠️ This is a **mock authentication system**.  
+ In real-world applications, authentication is handled securely on the backend.
 
 ---
 
