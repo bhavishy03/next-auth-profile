@@ -1,36 +1,109 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Next Auth Profile App 🔐👤
 
-## Getting Started
+A simple authentication-based web application built using **Next.js (App Router)** that demonstrates a complete **Signup, Login, and Profile management flow** with protected routes.
 
-First, run the development server:
+This project is created for **learning purposes and interview demonstration**.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+---
+
+## 🚀 Features
+
+- User Signup
+- User Login (Mock Authentication)
+- Protected Profile Page
+- Client-side authentication using `localStorage`
+- Profile image upload (Base64 format)
+- Edit profile details
+- Logout functionality
+- Clean and simple UI
+
+---
+
+## 🛠️ Tech Stack
+
+- **Next.js 16 (App Router)**
+- **React**
+- **JavaScript / TypeScript**
+- **CSS**
+- **Lucide Icons**
+- **Git & GitHub**
+
+---
+
+## 📂 Project Structure
+```
+app/
+├─ page.js # Home page (Login / Signup entry)
+├─ login/page.tsx # Login page
+├─ signup/page.tsx # Signup page
+├─ profile/page.tsx # Protected profile page
+├─ api/
+│ ├─ login/route.ts # Mock login API
+│ └─ signup/route.ts # Mock signup API
+public/
+└─ images/
+screenshots/
+├─ home.png
+├─ signup.png
+├─ login.png
+└─ profile.png
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🔐 Authentication Flow (How it Works)
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. User signs up → user data is stored in `localStorage`
+2. User logs in → credentials are validated on the client side
+3. A mock token is generated and saved in `localStorage`
+4. Profile page checks for token → allows or blocks access
+5. User profile data and image persist across page refresh
+6. Logout clears `localStorage` and redirects to login
 
-## Learn More
+> ⚠️ This is a **mock authentication system**.  
+> In real-world applications, authentication is handled securely on the backend.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🖼️ Screenshots
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Home Page
+![Home Page](./screenshots/home.png)
 
-## Deploy on Vercel
+### Signup Page
+![Signup Page](./screenshots/signup.png)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Login Page
+![Login Page](./screenshots/login.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Profile Page
+![Profile Page](./screenshots/profile.png)
+
+---
+
+## ▶️ Getting Started
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/bhavishy03/next-auth-profile.git
+
+```
+### 2 Navigate to project folder
+```bash
+cd next-auth-profile
+```
+
+## 3 cd next-auth-profile
+```bash
+npm install
+```
+
+## 4 Run the development server
+```bash
+Run the development server
+```
+
+## 5 Open your browser and visit
+```bash
+Open your browser and visit
+```
